@@ -17,7 +17,7 @@ fi
 exec qemu-system-arm \
   --machine versatilepb \
   --cpu arm1176 \
-  --m 256M \
+  --m 1024M \
   --hda /sdcard/filesystem.img \
   --net nic \
   --net user,hostfwd=tcp::5022-:22 \
